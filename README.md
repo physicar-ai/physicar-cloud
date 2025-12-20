@@ -21,8 +21,8 @@ Provides an environment to practice [**PhysiCar AI**](https://physicar.ai) in a 
 | **DeepRacer** | [`deepracer`](../../tree/deepracer) | **v1** | coming soon |
 | **Pose Control** | [`pose-control`](../../tree/pose-control) |  **v1** | coming soon |
 | **Follow** | [`follow`](../../tree/follow) |  **v1** | coming soon |
-| **ROS2 (jazzy)** | [`ros2-jazzy`](../../tree/ros2-jazzy) | **v1** |coming soon |
-| **ROS (neotic)** | [`ros-noetic`](../../tree/ros-noetic) | **v1** | [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/physicar/physicar-cloud/tree/ros-noetic?quickstart=1) |
+| **ROS2 (jazzy)** | [`ros2-jazzy`](../../tree/ros2-jazzy) | **v1** | coming soon |
+| **ROS (noetic)** | [`ros-noetic`](../../tree/ros-noetic) | **v1** | [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/physicar/physicar-cloud/tree/ros-noetic?quickstart=1) |
 
 ## About Codespaces
 
