@@ -30,7 +30,7 @@ GitHub Codespaces is a cloud-hosted development environment. You can start devel
 
 GitHub Codespaces는 클라우드에서 호스팅되는 개발 환경입니다. 웹브라우저로 별도의 로컬 환경 설정 없이 즉시 개발을 시작할 수 있습니다.
 
-### Pricing
+<!-- ### Pricing
 
 GitHub Codespaces is billed based on compute (CPU) and storage usage. Compute is charged at **$0.09 per core per hour**.  
 GitHub Codespaces는 컴퓨팅(CPU)과 스토리지 사용량에 따라 요금이 부과됩니다. 컴퓨팅 요금은 **코어당 시간당 $0.09**입니다.
@@ -44,7 +44,7 @@ GitHub Codespaces는 컴퓨팅(CPU)과 스토리지 사용량에 따라 요금�
 
 > 💡 **Tip**    
 > Stop your codespace when not in use to save core hours.  
-> 사용하지 않을 때는 코드스페이스를 중지하여 코어 시간을 절약하세요.
+> 사용하지 않을 때는 코드스페이스를 중지하여 코어 시간을 절약하세요. -->
 
 ### Free Tier
 
