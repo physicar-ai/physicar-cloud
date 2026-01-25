@@ -1,0 +1,45 @@
+{
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "features": {
+        "ghcr.io/devcontainers/features/docker-in-docker:2": {}
+    },
+    "remoteUser": "physicar",
+    "workspaceMount": "source=${localWorkspaceFolder},target=/home/physicar/physicar-cloud,type=bind,consistency=cached",
+    "workspaceFolder": "/home/physicar/physicar-cloud",
+    "hostRequirements": {"cpus": 4},
+    "onCreateCommand": "bash .devcontainer/onCreate.sh",
+    "postCreateCommand": "bash ~/scripts/postCreate.sh",
+    "postStartCommand": "bash ~/scripts/postStart.sh",
+    "postAttachCommand": "bash ~/scripts/postAttach.sh",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "GitHub.copilot",
+                "ms-python.python",
+                "ms-toolsai.jupyter"
+            ],
+            "settings": {
+                "markdown.preview.doubleClickToSwitchToEditor": false,
+                "workbench.editorAssociations": {
+                    "*.md": "vscode.markdown.preview.editor"
+                },
+                "explorer.compactFolders": false,
+                "python.defaultInterpreterPath": "/usr/bin/python3",
+                "jupyter.notebookFileRoot": "${workspaceFolder}",
+                "notebook.defaultKernel": {
+                    "id": "python3",
+                    "path": "/usr/bin/python3"
+                }
+            }
+        }
+    },
+    "forwardPorts": [8000],
+    "portsAttributes": {
+        "8000":{
+            "label": "Physicar",
+            "onAutoForward": "openPreview"
+        }
+    }
+}
