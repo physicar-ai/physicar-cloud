@@ -1,17 +1,8 @@
 # PhysiCar Cloud
 
-
 Provides an environment to practice [**PhysiCar AI**](https://physicar.ai) in a cloud environment (GitHub Codespaces).
 
 클라우드 환경 (Github Codespaces) 에서 [**PhysiCar AI**](https://physicar.ai) (피지카 에이아이)를 실습하는 환경을 제공합니다.
-
-## About PhysiCar AI
-
-[**PhysiCar AI**](https://physicar.ai) is a fast and easy creative physical AI education platform.
-
-[**피지카 에이아이**](https://physicar.ai)는 쉽고 빠른 창작형 피지컬 AI 교육 플랫폼입니다.
-
-![logo](images/physicar-ai-logo.png)
 
 ## Quick Start
 
@@ -23,6 +14,14 @@ Provides an environment to practice [**PhysiCar AI**](https://physicar.ai) in a 
 | **Follow** | [`follow`](../../tree/follow) |  **v1** | coming soon |
 | **ROS2 (jazzy)** | [`ros2-jazzy`](../../tree/ros2-jazzy) | **v1** | coming soon |
 <!-- | **ROS (noetic)** | [`ros-noetic`](../../tree/ros-noetic) | **v1** | [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/physicar-ai/physicar-cloud/tree/ros-noetic?quickstart=1) | -->
+
+## About PhysiCar AI
+
+[**PhysiCar AI**](https://physicar.ai) is a fast and easy creative physical AI education platform.
+
+[**피지카 에이아이**](https://physicar.ai)는 쉽고 빠른 창작형 피지컬 AI 교육 플랫폼입니다.
+
+![logo](images/physicar-ai-logo.png)
 
 ## About Codespaces
 
