@@ -1,1 +1,4 @@
-{"postCreateCommand": "gh codespace delete -c $CODESPACE_NAME --force"}
+{
+    "postCreateCommand": "gh codespace delete -c $CODESPACE_NAME --force",
+    "hostRequirements": {"cpus": 128}
+}
